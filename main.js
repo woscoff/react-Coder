@@ -3,3 +3,9 @@ class Pokemon{
         this.nombre = nombre
     }
 }
+
+class uno extends Pokemon{
+    constructor(){
+        n
+    }
+}
