@@ -1,0 +1,19 @@
+a{
+    color: black;
+}
+
+.navbar-nav{
+    display: flex;
+}
+
+.nav-item{
+    list-style: none;
+    margin-right: 1em;
+}
+
+.navbar-nav .nav-item a {
+    font-size: 1.2em;
+    text-decoration: none;
+    color: black; 
+}
+
