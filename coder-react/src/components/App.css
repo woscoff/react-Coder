@@ -1,12 +1,12 @@
 .cartWidget {
   position: relative;
-  left: 33%;
+  left: 30%;
   color:white;
 }
 
 .cantCarrito {
   position: relative;
-  left: 13%;
+  left: 5%;
 }
 
 .cardProducto {

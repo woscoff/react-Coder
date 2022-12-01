@@ -1,13 +1,11 @@
 const CartWidget = () => {
     return (
-        <ul className='navbar-nav me-auto cartWidget'>
-            <li className="nav-item">
-                <button className="btn btn-secondary">
-                    <i className="fas fa-shopping-cart fa-lg"></i>
-                        <span className="cantCarrito">0</span>
-                </button>
-            </li>
-        </ul>
+            <ul className="navbar-nav me-auto">
+                <li className="nav-link">
+                    <img src="./img/carrito.svg" className="cartWidget" alt="carrito de compras" />
+                </li>
+                <span className="cantCarrito">0</span>
+            </ul>
     
     );
 }
