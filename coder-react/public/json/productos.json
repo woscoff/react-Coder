@@ -1,6 +1,7 @@
 [
     {
         "id": 1,
+        "idCategoria": 1,
         "nombre": "Buzo",
         "marca": "Adidas",
         "precio": 10000,
@@ -9,6 +10,7 @@
     },
     {
         "id": 2,
+        "idCategoria": 2,
         "nombre": "Remera",
         "marca": "Under Armour",
         "precio": 5500,
@@ -17,6 +19,7 @@
     },
     {
         "id": 3,
+        "idCategoria": 3,
         "nombre": "Pantalon",
         "marca": "Nike",
         "precio": 8000,
