@@ -1,7 +1,58 @@
-.titulo{
-  background-color: red;
+.cartWidget {
+  position: relative;
+  left: 33%;
+  color:white;
 }
 
-.parrafo{
-  color: blue;
+.cantCarrito {
+  position: relative;
+  left: 13%;
 }
+
+.cardProducto {
+  width: 18rem;
+  margin: 4px;
+}
+
+.cardProductos {
+  margin: 4px;
+  align-items: center;
+  justify-content: center;
+}
+.cardBody {
+  background-color: white;
+  margin-bottom: 3px;
+  text-align: center;
+}
+
+/* .precio {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 50px; }
+  .precio .box-precio {
+    width: 50%;
+    height: auto;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0; }
+    .precio .box-precio .precio1 {
+      color: red;
+      font-size: 1.5em; }
+  .precio .precio2 {
+    color: pink;
+    font-size: 1rem;
+    font-weight: 600; }
+    @media (min-width: 1524px) {
+      .precio .precio2 {
+        font-size: 2rem; } }
+
+        .btn-cat {
+          margin: auto;
+          margin-top: 1.5rem;
+          width: 60%;
+          height: 3em; } */

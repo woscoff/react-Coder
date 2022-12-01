@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "nombre": "Buzo",
+        "marca": "Adidas",
+        "precio": 10000,
+        "stock": 15,
+        "img": "buzo_adidas.webp"
+    },
+    {
+        "id": 2,
+        "nombre": "Remera",
+        "marca": "Under Armour",
+        "precio": 5500,
+        "stock": 20,
+        "img": "remera_under2.webp"
+    },
+    {
+        "id": 3,
+        "nombre": "Pantalon",
+        "marca": "Nike",
+        "precio": 8000,
+        "stock": 10,
+        "img": "pantalon_nike.webp"
+    }
+]
