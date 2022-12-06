@@ -1,23 +1,20 @@
 import { useState } from "react";
 
-const ItemCount = () => {
-    const [contador, setContador] = useState(1);
+const ItemCount = ({inicial, stock, onAdd}) => {
+    const [contador, setContador] = useState(inicial);
     /* const boton = document.getElementById("boton1");
     console.log(boton); NO SE PUEDE */
-    const sumar = () =>{
-        if(contador < 10)
-        setContador(contador+1)
-    } 
-    const restar = () => {
-        if(contador > 1)
-        setContador(contador-1)
-    }
+    const sumar = () => contador < stock && setContador(contador + 1);
+
+    const restar = () => contador > 1 && setContador(contador - 1);
+
+    const agregarAlCarrito = () => onAdd(contador);
     return (
         <>
-        <button className="btn btn-dark" onClick={() => sumar()}>+</button>
-        {contador}
         <button className="btn btn-dark" onClick={() => restar()}>-</button>
-        <button className="btn btn-light">Agregar al carrito</button>
+        {contador}
+        <button className="btn btn-dark" onClick={() => sumar()}>+</button>
+        <img src="../img/addCart.svg" onClick={agregarAlCarrito} alt="" />
         </>
     );
 }
