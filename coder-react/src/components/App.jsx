@@ -1,6 +1,7 @@
 import './App.css';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Navbar from './Navbar/Navbar';
+import ItemDetailContainer from './ItemDetailContainer/ItemDetailContainer';
 import ItemListContainer from './ItemListContainer/ItemListContainer';
 const App = () => {
   

@@ -1,10 +1,9 @@
 import Item from "../Item/Item";
 //Modificar mi array de objetos
-const ItemList = ({productList}) => {
-    console.log(productList);
+const ItemList = ({productsList}) => {
     return (
         <>
-            {productList.map(product => <Item key={product.id} producto={product} />)}
+            {productsList.map(producto => <Item key={producto.id} prod={producto} />)}
         </>
     );
 }
