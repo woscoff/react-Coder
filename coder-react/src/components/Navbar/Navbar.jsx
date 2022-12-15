@@ -1,9 +1,13 @@
 import './navbar.css';
+import BotonDarkMode from './BotonDarkMode/BotonDarkMode';
 import Categorias from "./Categorias/Categorias";
 import CartWidget from "../CartWidget/CartWidget";
+
+import { useDarkModeContext } from '../../context/DarkModeContext';
 const Navbar = () => {
+    const {darkMode} = useDarkModeContext()
     return (
-        <nav className="navbar navbar-expand-lg bg-light navbar-dark bg-dark">
+        <nav className={`navbar navbar-expand-lg navbar-dark ${darkMode ? 'bg-primary' : 'bg-dark'}`}>
         <div className="container-fluid">
           <a href="index.html">
 						<img src="" alt="logo"/>
@@ -12,9 +16,10 @@ const Navbar = () => {
             <span className="navbar-toggler-icon" />
           </button>
           <div className="collapse navbar-collapse">
-            <Categorias/>
-          </div>
+          <Categorias/>
           <CartWidget/>
+          <BotonDarkMode/>
+          </div>
         </div>
       </nav>
     );

@@ -1,4 +1,4 @@
-.cartWidget {
+/* .cartWidget {
   position: relative;
   left: 30%;
   color:white;
@@ -25,34 +25,66 @@
   text-align: center;
 }
 
-/* .precio {
-  width: 100%;
-  height: auto;
-  margin: auto;
-  font-family: sans-serif;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 50px; }
-  .precio .box-precio {
-    width: 50%;
-    height: auto;
-    margin: auto;
-    margin-top: 0;
-    margin-bottom: 0; }
-    .precio .box-precio .precio1 {
-      color: red;
-      font-size: 1.5em; }
-  .precio .precio2 {
-    color: pink;
-    font-size: 1rem;
-    font-weight: 600; }
-    @media (min-width: 1524px) {
-      .precio .precio2 {
-        font-size: 2rem; } }
+.darkMode {
+  background-color:black;
+  color:gainsboro;
+}
 
-        .btn-cat {
-          margin: auto;
-          margin-top: 1.5rem;
-          width: 60%;
-          height: 3em; } */
+.cardBodyDark {
+  background-color: hsl(0, 0%, 33%);
+  margin-bottom: 3px;
+  text-align: center;
+} */
+
+.cardProducto {
+  width: 18rem;
+  margin: 4px;
+  background-color: hsl(0, 0%, 97%);
+}
+
+.cardBody {
+  background-color: white;
+  margin-bottom: 3px;
+  text-align: center;
+}
+
+.cardBodyDark {
+  background-color: hsl(0, 0%, 33%);
+  margin-bottom: 3px;
+  text-align: center;
+}
+
+img {
+  margin-top:3px;
+}
+
+.cardProductos {
+  margin: 4px;
+  align-items:center;
+  justify-content: center;
+}
+
+.cartWidget {
+  position: relative;
+  right: 3%;
+  color:white;
+}
+
+.nav-item {
+  margin: 10px;
+}
+
+.cantCarrito {
+  position: relative;
+  left: 15%;
+}
+
+.darkMode {
+  background-color:black;
+  color:gainsboro;
+}
+
+.itemDetail {
+  max-width: 540px;
+  margin-top: 20px;
+}
