@@ -9,6 +9,7 @@ import ItemDetailContainer from './ItemDetailContainer/ItemDetailContainer';
 import ItemListContainer from './ItemListContainer/ItemListContainer';
 import Cart from './Cart/Cart';
 import Checkout from './Checkout/Checkout';
+import { cargarBDD } from '../assets/firebase';
 const App = () => {
   
   return (

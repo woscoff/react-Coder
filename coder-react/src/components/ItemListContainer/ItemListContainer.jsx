@@ -2,6 +2,7 @@ import {useState, useEffect} from 'react';
 import ItemList from '../ItemList/ItemList.jsx';
 import { useParams } from 'react-router-dom';
 import { consultarBDD } from '../../assets/funciones.js';
+import { cargarBDD } from '../../assets/firebase.js';
 //Consultar BDD
 const ItemListContainer = () => {
     const[productos, setProductos] = useState([]);
@@ -20,6 +21,7 @@ const ItemListContainer = () => {
                 setProductos(cardProductos);
             })
         }
+        cargarBDD().then()
     }, [category]);
     //[] cuando sucedan cambios en todo el array
     //[propiedad] cuando se modifica un objeto interno del array

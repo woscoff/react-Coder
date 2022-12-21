@@ -6,7 +6,7 @@
         "marca": "Adidas",
         "precio": 10000,
         "stock": 15,
-        "img": "buzo_adidas.webp"
+        "img": "https://console.firebase.google.com/project/reactcoder-25cdb/storage/reactcoder-25cdb.appspot.com/files?hl=es"
     },
     {
         "id": 2,
@@ -15,7 +15,7 @@
         "marca": "Under Armour",
         "precio": 5500,
         "stock": 20,
-        "img": "remera_under2.webp"
+        "img": "https://firebasestorage.googleapis.com/v0/b/reactcoder-25cdb.appspot.com/o/remera_under2.webp?alt=media&token=87354d56-676f-45e2-ae6e-2f29520a5969"
     },
     {
         "id": 3,
@@ -24,6 +24,6 @@
         "marca": "Nike",
         "precio": 8000,
         "stock": 10,
-        "img": "pantalon_nike.webp"
+        "img": "https://firebasestorage.googleapis.com/v0/b/reactcoder-25cdb.appspot.com/o/pantalon_nike.webp?alt=media&token=82fffa5c-37ff-454a-bfc1-743a5a651f00"
     }
 ]

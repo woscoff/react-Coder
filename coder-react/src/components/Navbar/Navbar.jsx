@@ -17,8 +17,10 @@ const Navbar = () => {
           </button>
           <div className="collapse navbar-collapse">
           <Categorias/>
+          <div className='d-flex'>
           <CartWidget/>
           <BotonDarkMode/>
+          </div>
           </div>
         </div>
       </nav>
