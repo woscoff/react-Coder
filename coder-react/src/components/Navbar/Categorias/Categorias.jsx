@@ -4,13 +4,13 @@ const Categorias = () => {
         <div>
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="#">Home</a>
+                <a className="nav-link" aria-current="page" href="#">Buzos</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Hogar</a>
+                <a className="nav-link" href="#">Pantalones</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Casa</a>
+                <a className="nav-link" href="#">Remeras</a>
               </li>
             </ul>
         </div>

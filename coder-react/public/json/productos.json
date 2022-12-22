@@ -6,7 +6,7 @@
         "marca": "Adidas",
         "precio": 10000,
         "stock": 15,
-        "img": "https://console.firebase.google.com/project/reactcoder-25cdb/storage/reactcoder-25cdb.appspot.com/files?hl=es"
+        "img": "https://firebasestorage.googleapis.com/v0/b/reactcoder-25cdb.appspot.com/o/buzo_adidas.webp?alt=media&token=b3a78108-8a68-4271-ba9b-9e61220880d5"
     },
     {
         "id": 2,

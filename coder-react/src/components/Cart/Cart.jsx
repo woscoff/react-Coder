@@ -11,7 +11,7 @@ const Cart = () => {
         {carrito.length === 0 ? 
         <>
         <h1>Carrito vacio</h1>
-        <button className="btn btn-dark"><Link to={'/'}>Continuar comprando</Link></button>
+        <button className={`btn ${darkMode ? 'btn-secondary' : 'btn-primary'}`}><Link  className="nav-link" to={'/'}>Continuar comprando</Link></button>
         </>
         :
         <div className="container cartContainer">
