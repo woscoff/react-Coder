@@ -21,7 +21,7 @@ const ItemListContainer = () => {
                 setProductos(cardProductos);
             })
         }
-        cargarBDD().then()
+        cargarBDD().then(productos => console.log(productos))
     }, [category]);
     //[] cuando sucedan cambios en todo el array
     //[propiedad] cuando se modifica un objeto interno del array
