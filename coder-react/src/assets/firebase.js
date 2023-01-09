@@ -1,5 +1,5 @@
 import { initializeApp } from "firebase/app";
-import {getFirestore, addDoc, collection} from 'firebase/firestore'
+import {getFirestore, addDoc, getDocs, getDoc, updateDoc, deleteDoc, collection, doc} from 'firebase/firestore'
 
 const firebaseConfig = {
   apiKey: process.env.API_KEY,
@@ -14,7 +14,9 @@ const app = initializeApp(firebaseConfig);
 
 const db = getFirestore()
 
-const cargarBDD = async () => {
+
+
+/* const cargarBDD = async () => {
     const promise = await fetch('./json/productos.json')
     const productos = await promise.json()
     productos.forEach(async (prod) => {
@@ -28,6 +30,30 @@ const cargarBDD = async () => {
             img: prod.img
         })
     })
+} */
+
+const getProductos = async() => {
+    const productos = await getDocs(collection(db, "productos"));
+    const items = productos.docs .map(prod =>{
+        return {...prod.data(), id: prod.id}
+    })
+    return items
 }
 
-export {cargarBDD}
+const getProducto = async (id) => {
+    const producto = await getDoc(doc(db, "productos", id))
+    const item = {...producto.data(), id: producto.id}
+    return item
+}
+
+const updateProducto = async (id, info) =>{
+    const estado= await updateDoc(doc(db,"productos", id), info)
+    return estado
+}
+
+const deleteProducto = async(id)=>{
+    const estado = await deleteDoc(doc(db, "productos", id))
+    return estado
+}
+
+export {getProductos, getProducto, updateProducto, deleteProducto}
