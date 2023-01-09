@@ -1,5 +1,5 @@
 import './App.css';
-
+import {useEffect} from 'react'
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
 import { DarkModeProvider } from '../context/DarkModeContext';
@@ -9,8 +9,27 @@ import ItemDetailContainer from './ItemDetailContainer/ItemDetailContainer';
 import ItemListContainer from './ItemListContainer/ItemListContainer';
 import Cart from './Cart/Cart';
 import Checkout from './Checkout/Checkout';
-import { cargarBDD } from '../assets/firebase';
+import productos from '../assets/json/productos.json'
+import {getFirestore, addDoc, collection, getDocs} from 'firebase/firestore'
+
 const App = () => {
+
+  useEffect(()=>{
+    const db = getFirestore()
+    const coleccionProductos=  collection(db, "productos")
+    getDocs(coleccionProductos)
+    .then((result)=> {
+      const lista = result.docs.map((producto)=>{
+        return{
+          id:producto.id,
+          ...producto.data()
+        }
+      })
+      console.log(lista)
+    })
+    .catch((error)=> console.log(error))
+   
+  }, [])
   
   return (
     <>

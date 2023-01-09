@@ -1,6 +1,5 @@
 [
     {
-        "id": 1,
         "idCategoria": 1,
         "nombre": "Buzo Adidas Essentials 22",
         "marca": "Adidas",
@@ -9,7 +8,6 @@
         "img": "https://firebasestorage.googleapis.com/v0/b/reactcoder-25cdb.appspot.com/o/buzo_adidas.webp?alt=media&token=b3a78108-8a68-4271-ba9b-9e61220880d5"
     },
     {
-        "id": 2,
         "idCategoria": 2,
         "nombre": "Remera",
         "marca": "Under Armour",
@@ -18,7 +16,6 @@
         "img": "https://firebasestorage.googleapis.com/v0/b/reactcoder-25cdb.appspot.com/o/remera_under2.webp?alt=media&token=87354d56-676f-45e2-ae6e-2f29520a5969"
     },
     {
-        "id": 3,
         "idCategoria": 3,
         "nombre": "Pantalon Nike Academy",
         "marca": "Nike",
@@ -27,7 +24,6 @@
         "img": "https://firebasestorage.googleapis.com/v0/b/reactcoder-25cdb.appspot.com/o/pantalon_nike.webp?alt=media&token=82fffa5c-37ff-454a-bfc1-743a5a651f00"
     },
     {
-        "id": 4,
         "idCategoria": 1,
         "nombre": "Buzo Adidas Essentials",
         "marca": "Adidas",
@@ -36,7 +32,6 @@
         "img": "https://firebasestorage.googleapis.com/v0/b/reactcoder-25cdb.appspot.com/o/buzo.webp?alt=media&token=9b3bcea9-b7fe-45b6-8378-4f69b156daad"
     },
     {
-        "id": 5,
         "idCategoria": 3,
         "nombre": "Pantalon Topper Urb li",
         "marca": "Topper",
@@ -45,7 +40,6 @@
         "img": "https://firebasestorage.googleapis.com/v0/b/reactcoder-25cdb.appspot.com/o/PantalonTopperUrbli.webp?alt=media&token=e8dfc8c5-e694-4a79-86c3-51e37c0c560f"
     },
     {
-        "id": 6,
         "idCategoria": 2,
         "nombre": "Remera Converse Patch",
         "marca": "Converse",
@@ -54,7 +48,6 @@
         "img": "https://firebasestorage.googleapis.com/v0/b/reactcoder-25cdb.appspot.com/o/RemeraConversePatch.webp?alt=media&token=e062830c-3b57-4010-84ff-3a89e9943650"
     },
     {
-        "id": 7,
         "idCategoria": 1,
         "nombre": "Buzo Topper Oversize Urb",
         "marca": "Topper",
@@ -63,7 +56,6 @@
         "img": "https://firebasestorage.googleapis.com/v0/b/reactcoder-25cdb.appspot.com/o/BuzoTopperOversizeUrb.webp?alt=media&token=16eed914-2045-4fad-a3d1-625af8155627"
     },
     {
-        "id": 8,
         "idCategoria": 2,
         "nombre": "Remera Adidas Badge Of Sport",
         "marca": "Adidas",
@@ -72,7 +64,6 @@
         "img": "https://firebasestorage.googleapis.com/v0/b/reactcoder-25cdb.appspot.com/o/RemeraAdidasBadgeOfSport.webp?alt=media&token=859ccaf5-b312-465f-9f4a-96a780bd2a92"
     },
     {
-        "id": 9,
         "idCategoria": 2,
         "nombre": "Remera Adidas Designed To Move Big Logo",
         "marca": "Adidas",
@@ -81,7 +72,6 @@
         "img": "https://firebasestorage.googleapis.com/v0/b/reactcoder-25cdb.appspot.com/o/RemeraAdidasDesignedToMoveBigLogo.webp?alt=media&token=f73e4cd1-795d-4740-8ebe-4c9371db4088"
     },
     {
-        "id": 10,
         "idCategoria": 3,
         "nombre": "Pantalon Topper Colegial",
         "marca": "Topper",
@@ -90,7 +80,6 @@
         "img": "https://firebasestorage.googleapis.com/v0/b/reactcoder-25cdb.appspot.com/o/PantalonTopperColegial.webp?alt=media&token=6994835b-0b43-4ceb-aeb1-0bc6039c2c6c"
     },
     {
-        "id": 11,
         "idCategoria": 1,
         "nombre": "Buzo Converse All Star",
         "marca": "Converse",
@@ -99,7 +88,6 @@
         "img": "https://firebasestorage.googleapis.com/v0/b/reactcoder-25cdb.appspot.com/o/BuzoConverseAllStar.webp?alt=media&token=5e01e6eb-f9b4-4e9f-9f0e-6d235bfab10f"
     },
     {
-        "id": 12,
         "idCategoria": 2,
         "nombre": "Remera Topper Basic",
         "marca": "Topper",
@@ -108,7 +96,6 @@
         "img": "https://firebasestorage.googleapis.com/v0/b/reactcoder-25cdb.appspot.com/o/RemeraTopperBasic.webp?alt=media&token=0b366c5f-f705-4f76-8694-b2ec7865853f"
     },
     {
-        "id": 13,
         "idCategoria": 3,
         "nombre": "Pantalon Puma Ferrari Race",
         "marca": "Puma",

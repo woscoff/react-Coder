@@ -3,11 +3,11 @@ import {getFirestore, addDoc, collection} from 'firebase/firestore'
 
 const firebaseConfig = {
   apiKey: process.env.API_KEY,
-  authDomain: "react-2022-8c29e.firebaseapp.com",
-  projectId: "react-2022-8c29e",
-  storageBucket: "react-2022-8c29e.appspot.com",
-  messagingSenderId: "45323425130",
-  appId: "1:45323425130:web:7de30417195ca058574113"
+  authDomain: "reactcoder-25cdb.firebaseapp.com",
+  projectId: "reactcoder-25cdb",
+  storageBucket: "reactcoder-25cdb.appspot.com",
+  messagingSenderId: "843498909676",
+  appId: "1:843498909676:web:05d9f3d2d639195d309ac9"
 };
 
 const app = initializeApp(firebaseConfig);
