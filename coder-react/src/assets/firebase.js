@@ -56,4 +56,6 @@ const deleteProducto = async(id)=>{
     return estado
 }
 
+
+
 export {getProductos, getProducto, updateProducto, deleteProducto}

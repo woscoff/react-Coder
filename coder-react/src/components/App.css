@@ -38,6 +38,7 @@
 
 .cardProducto {
   width: 18rem;
+  height: auto;
   margin: 4px;
   background-color: hsl(0, 0%, 97%);
 }
@@ -49,7 +50,7 @@
 }
 
 .cardBodyDark {
-  background-color: hsl(0, 0%, 33%);
+  background-color: black;
   margin-bottom: 3px;
   text-align: center;
 }
@@ -81,7 +82,7 @@ img {
 
 .darkMode {
   background-color:black;
-  color:gainsboro;
+  color: black;
 }
 
 .itemDetail {
