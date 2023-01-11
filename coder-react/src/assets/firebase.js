@@ -56,6 +56,25 @@ const deleteProducto = async(id)=>{
     return estado
 }
 
+const createOrdenCompra = async (cliente, preTotal, fecha ) => {
+    const ordenCompra = await addDoc(collection(db, "ordenCompra"),{
+        nombreCompleto: cliente.nombre,
+        email: cliente.email,
+        dni: cliente.dni,
+        direccion: cliente.direccion,
+        celular: cliente.celular,
+        fecha: fecha,
+        precioTotal: preTotal
+    })
+    return ordenCompra;
+}
+
+const getOrdenCompra =  async (id) => {
+    const ordenCompra = await getDoc(doc(db, "ordenCompra", id))
+    const item = {...ordenCompra.data(), id: ordenCompra.id}
+    return item
+}
 
 
-export {getProductos, getProducto, updateProducto, deleteProducto}
+
+export {getProductos, getProducto, updateProducto, deleteProducto, createOrdenCompra, getOrdenCompra}
