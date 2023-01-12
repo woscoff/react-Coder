@@ -50,11 +50,11 @@ const Checkout = () => {
                 </div>
                 <div className="mb-3">
                     <label htmlFor="email" className="form-label">Email</label>
-                    <input type="email" className="form-control" name="email" placeholder='example@gmail.com' required/>
+                    <input type="email" className="form-control mail1" name="email" placeholder='example@gmail.com' required/>
                 </div>
                 <div className="mb-3">
                     <label htmlFor="email" className="form-label">Repetir email</label>
-                    <input type="email" className="form-control" name="email" placeholder='example@gmail.com' required/>
+                    <input type="email" className="form-control mail2" name="email" placeholder='example@gmail.com' required/>
                 </div>
                 <div className="mb-3">
                     <label htmlFor="dni" className="form-label">DNI</label>
